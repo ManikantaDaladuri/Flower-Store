@@ -1,0 +1,57 @@
+body
+{
+    background-color:rgb(147, 133, 252);
+    font-family: 'Times New Roman', Times, serif;
+}
+table
+{
+    color: rgb(12, 12, 12);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(212, 21, 250, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(243, 119, 42, 0.2);
+    backdrop-filter: blur( 9.5px );
+    -webkit-backdrop-filter: blur( 9.5px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+h2
+{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(233, 246, 47);
+}
+a{
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    top: 77%;
+    color: rgb(12, 12, 12);
+}
+input{
+    border-radius: 5px;
+}
+.luv{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: rgb(250, 71, 71);
+    top: 38%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+}
+.hate{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: rgb(249, 86, 86);
+    top: 62%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+}
